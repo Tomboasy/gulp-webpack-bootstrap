@@ -1,0 +1,25 @@
+{
+    "livereload": "http://localhost/gulp-webpack-bootstrap/dist",
+    "src": {
+        "copy": [
+            "src/**/*",
+            "!src/{scss,js,images}/**/*"
+        ],
+        "images": [
+            "src/images/**/*"
+        ],
+        "sass": [
+            "src/scss/*.scss"
+        ],
+        "js": [
+            "src/js/main.js"
+        ]
+    },
+    "dist": {
+        "clean": "./dist",
+        "copy": "./dist",
+        "images": "./dist/images",
+        "sass": "./dist/css",
+        "js": "./dist/js"
+    }
+}
