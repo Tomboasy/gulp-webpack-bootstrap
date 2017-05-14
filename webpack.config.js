@@ -1,9 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
 
+var PATHS = require('./paths.json');
+
 module.exports = {
     output: {
-        path: path.resolve(__dirname, './dist/js'),
+        path: path.resolve(__dirname, PATHS.dist.js),
         filename: '[name].js',
     },
     module: {

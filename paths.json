@@ -1,5 +1,5 @@
 {
-    "livereload": "http://localhost/gulp-webpack-bootstrap/dist",
+    "proxy": "http://localhost/gulp-webpack-bootstrap/dist",
     "src": {
         "copy": [
             "src/**/*",
