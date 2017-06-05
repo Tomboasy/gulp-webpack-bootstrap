@@ -12,7 +12,7 @@
             "src/scss/*.scss"
         ],
         "js": [
-            "src/js/main.js"
+            "src/js/*.js"
         ]
     },
     "dist": {
