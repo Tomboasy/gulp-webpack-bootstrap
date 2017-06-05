@@ -54,12 +54,10 @@
 
 	"use strict";
 
-	var hello = function hello(what) {
-	    return console.log("hello " + what + "!!");
-	};
-
 	module.exports = {
-	    hello: hello
+	    hello: function hello(what) {
+	        return console.log("hello " + what + "!!");
+	    }
 	};
 
 /***/ }),
