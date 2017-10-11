@@ -15,6 +15,14 @@
             "src/js/*.js"
         ]
     },
+    "watch": {
+        "sass": [
+            "assets/scss/**/*.scss"
+        ],
+        "js": [
+            "assets/js/*.js"
+        ]
+    },
     "dist": {
         "clean": "./dist",
         "copy": "./dist",
